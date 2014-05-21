@@ -13,6 +13,7 @@ in no particular order:
       - contain as few syllables as possible
       - have no missing or replaced letters
       - not sound like other words (ex: daft gets confused with deft regularly)
+      - the goal is to not have to explain or spell the name every time you tell it to someone
   - programming
     - don't abbreviate
     - when the meaning of an element (variable/method/class) changes, change the name (but srsly, put serious thought into the names)
@@ -39,13 +40,17 @@ in no particular order:
   - all code should be pull requested, all members of the team should read pull requests and give some quorum of :cake: or :princess:
     - tests should be run against every pull request automatically
   - markup and css belong in templates, not controllers or models
+    - there are these things called templating languages, use one
+      - php: [lavender](https://github.com/golavender/lavender) or [twig](http://twig.sensiolabs.org/)
+      - node: [jade](http://jade-lang.com/)
   - don't have credentials under version control
   - don't commit dependency code (i.e. jquery, bootstrap)
     - use composer or npm or gems or submodules or anything
   - don't roll your own framework
     - bootstrap for markup and chrome
-    - jquery for javascript
-    - angular for interactions
+    - jquery for javascript dom management
+    - lodash for more javascript helpers (this has some overlap with jquery, use jquery for dealing with jquery objects and lodash for everything else)
+    - angular for javascript interactions (lets you build most of your ui javascript interactions directly into the markup instead of having one off scripts for stupid things. beware of large data sets)
     - laravel for php
     - express for nodejs
     - rails for ruby
@@ -79,7 +84,7 @@ in no particular order:
 - Basically anything here: http://pivotallabs.com/category/tech-talks
   - but specifically this: http://pivotallabs.com/103-agile-the-pivotal-way/
 
-- programming sucks. --> http://stilldrinking.org/programming-sucks
+- [programming sucks](http://stilldrinking.org/programming-sucks)
 
 - use the right tool for the job. don't try to fit a square peg in a round hole. (ex: don't do caching in mysql. this is why we have memcached).
 
@@ -94,7 +99,7 @@ in no particular order:
   - work on high value, low cost features first.
 
 - product
-  - design isn't nearly as important as function. build out your features before adding chrome. UX people first, programmers second, designers third.
+  - functionality is more important than design. build out your features before adding chrome. UX people first, programmers second, designers third.
   - know where you're going, but build your MVP first. (don't build an oil tanker when you need a tugboat)
   - MVP should be the smallest possible (not completely useless) piece of the great whole
     - bulid for what you need now, not what you expect you might need in the future
@@ -109,4 +114,4 @@ in no particular order:
 
 - http://highscalability.com/
 
-- pirates code applies here (https://www.youtube.com/watch?v=b6kgS_AwuH0)
+- [and most importantly](https://www.youtube.com/watch?v=b6kgS_AwuH0)
