@@ -31,6 +31,10 @@ in no particular order:
   - all code should be pull requested, all members of the team should read pull requests and give some quorum of :cake: or :princess:
     - tests should be run against every pull request automatically
   - markup and css belong in templates, not controllers or models
+  - don't have credentials under version control
+  - don't commit dependency code (i.e. jquery, bootstrap)
+    - use composer or npm or gems or submodules or anything
+  - don't roll your own framework
   - evaluate performance when it becomes a business problem
     - seriously, don't prematurely optimize
       - no really, you aren't going to have a million users day one of launch. if you do, good for you. deal with it then.
