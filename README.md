@@ -33,12 +33,17 @@ in no particular order:
     - clarity of code and readability are more imprtant than basically everything else
     - frameworks have conventions
       - don't roll your own
+    - don't comment out code. this is why we have version control.
+    - your code should be clean enough to read without comments.
+      - comments are okay in rare occasions like heavy math, but ultimately are out of date as soon as you write them.
   - don't get defensive when talking about the product. (ex: don't shy away from things you know are hard)
   - have tests
     - run your tests
       - frequently
+      - worst case scenario, [rainforest qa](https://www.rainforestqa.com/)
   - all code should be pull requested, all members of the team should read pull requests and give some quorum of :cake: or :princess:
     - tests should be run against every pull request automatically
+    - blockers should be explicitly stated
   - markup and css belong in templates, not controllers or models
     - there are these things called templating languages, use one
       - php: [lavender](https://github.com/golavender/lavender) or [twig](http://twig.sensiolabs.org/)
@@ -46,6 +51,7 @@ in no particular order:
   - don't have credentials under version control
   - don't commit dependency code (i.e. jquery, bootstrap)
     - use composer or npm or gems or submodules or anything
+  - don't commit "built" files like compiled sass, etc.
   - don't roll your own framework
     - bootstrap for markup and chrome
     - jquery for javascript dom management
@@ -59,6 +65,16 @@ in no particular order:
     - seriously, don't prematurely optimize
       - no really, you aren't going to have a million users day one of launch. if you do, good for you. deal with it then.
   - globals are bad. mmmm'kay?
+  - know a little bit about security
+    - security audits will get the crazy stuff, but you should know the basics
+    - [interesting post about password cracking](https://community.qualys.com/blogs/securitylabs/2012/06/08/lessons-learned-from-cracking-2-million-linkedin-passwords)
+    - [key stretching](http://en.wikipedia.org/wiki/Key_stretching)
+    - [do we even need passwords?](https://medium.com/cyber-security/9ed56d483eb)
+  - [keep your bedroom clean](http://www.commitstrip.com/en/page/6/)
+    - commit (pun intended) a meaningful amount of time to optimizing and cleaning your code.
+    - pay technical debt as soon as possible.
+    - some times it's just too messy. the sign of a great leader is someone that is willing to [throw away all of their code.](http://www.commitstrip.com/en/page/21/)
+      - [don't go overboard though](http://www.commitstrip.com/en/page/50/)
 
 - two people working on a project, especially on the tech side, are infinitely better than one (http://feedfront.com/archives/article006974)
   - make your "bus number" as high as possible (http://en.wikipedia.org/wiki/Bus_factor)
@@ -77,13 +93,16 @@ in no particular order:
   - business defines goals
   - product defines priority
   - nobody bitches. we're a team.
-  - time doesn't matter. results matter
+  - [time doesn't matter. results matter](http://www.commitstrip.com/en/page/35/)
     - the number of hours worked is not a representation of productivity
   - sleep is important (majestic if you will)
+  - invest in tools that save time
+    - [hub](https://github.com/github/hub)
 
 - Basically anything here: http://pivotallabs.com/category/tech-talks
   - but specifically this: http://pivotallabs.com/103-agile-the-pivotal-way/
 
+- all programming languages are broken. [watman](https://www.destroyallsoftware.com/talks/wat)
 - [programming sucks](http://stilldrinking.org/programming-sucks)
 
 - use the right tool for the job. don't try to fit a square peg in a round hole. (ex: don't do caching in mysql. this is why we have memcached).
@@ -104,6 +123,7 @@ in no particular order:
   - MVP should be the smallest possible (not completely useless) piece of the great whole
     - bulid for what you need now, not what you expect you might need in the future
   - pages should have only one call to action
+  - be vocal about things you think are broken or inefficient
   - Be consistent.
 - team dynamic is important. bolster the 'family' feeling by doing unstructured extra-curricular activities
   - farmhouse thursdays
@@ -111,7 +131,16 @@ in no particular order:
   - thirsty thursdays
   - burger wednesdays
   - team lunch (no fucking working)
+  - know your programmer humor
+    - [commit strip](http://www.commitstrip.com/en/)
+    - [xkcd](http://xkcd.com/)
+    - [reddit: programmer humor](http://www.reddit.com/r/programmerhumor)
+  - make sure everyone is aware of the [cost of meetings](http://tobytripp.github.io/meeting-ticker/)
 
 - http://highscalability.com/
 
+- invest in equipment that increases efficiency, but don't invest in things that satisfy your ego.
+  - [whitepaper on screen size vs. productivity](http://pfeifferreport.com/Cin_Disp30_Bench_Rep.pdf)
+
 - [and most importantly](https://www.youtube.com/watch?v=b6kgS_AwuH0)
+  - [penalties](http://www.commitstrip.com/en/page/42/)
