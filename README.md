@@ -138,6 +138,7 @@ in no particular order:
   - make sure everyone is aware of the [cost of meetings](http://tobytripp.github.io/meeting-ticker/)
 
 - http://highscalability.com/
+- https://www.destroyallsoftware.com/talks
 
 - invest in equipment that increases efficiency, but don't invest in things that satisfy your ego.
   - [whitepaper on screen size vs. productivity](http://pfeifferreport.com/Cin_Disp30_Bench_Rep.pdf)
