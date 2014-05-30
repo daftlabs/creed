@@ -13,7 +13,8 @@ in no particular order:
       - contain as few syllables as possible
       - have no missing or replaced letters
       - not sound like other words (ex: daft gets confused with deft regularly)
-      - the goal is to not have to explain or spell the name every time you tell it to someone
+      - the goal is to not have to explain or spell the name every time you tell it to someone.
+      - names aren't as important as the brands you build them to be.
   - programming
     - don't abbreviate
     - when the meaning of an element (variable/method/class) changes, change the name (but srsly, put serious thought into the names)
