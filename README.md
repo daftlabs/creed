@@ -66,6 +66,7 @@ in no particular order:
     - seriously, don't prematurely optimize
       - no really, you aren't going to have a million users day one of launch. if you do, good for you. deal with it then.
   - globals are bad. mmmm'kay?
+  - form posts ALWAYS redirect. dont just process the post and render something on the same request
   - know a little bit about security
     - security audits will get the crazy stuff, but you should know the basics
     - [interesting post about password cracking](https://community.qualys.com/blogs/securitylabs/2012/06/08/lessons-learned-from-cracking-2-million-linkedin-passwords)
