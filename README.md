@@ -21,6 +21,7 @@ in no particular order:
     - Be consistent.
 
 - less cogs in the machine with the same level of functionality should be the goal
+  - this conflicts with the idea of "using the best tool for the job", both are important you'll just have to figure it out on a case by case basis.
   - keep complexity as low as possible
   - celebrate deletions, not addtions
   - http://blog.newrelic.com/2013/05/02/red-code-green-code/
