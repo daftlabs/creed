@@ -118,6 +118,7 @@ in no particular order:
 - know the value of your resources
   - sometimes it's cheaper to have a human do the job instead of writing a program (ex: modify these 10 records)
   - if a server is messed up, and it's not a recurring problem, since you use chef, you can just nuke it and make a new one. don't try to fix the problem.
+  - http://en.wikipedia.org/wiki/Peter_Principle - promoting from within isn't always a good idea
   - work on high value, low cost features first.
 
 - product
