@@ -4,6 +4,8 @@ by: Daft Labs
 
 in no particular order:
 
+- math not feelings
+  - [Ad spend calculator](http://ad-spend-calculator.qwilr.com/)
 - names matter
   - branding 
     - brand names and domain names should match
