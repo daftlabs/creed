@@ -148,6 +148,7 @@ in no particular order:
 
 - invest in equipment that increases efficiency, but don't invest in things that satisfy your ego.
   - [whitepaper on screen size vs. productivity](http://pfeifferreport.com/Cin_Disp30_Bench_Rep.pdf)
+- [pivotal and git integration](http://pivotallabs.com/level-up-your-development-workflow-with-github-pivotal-tracker/)
 
 - [and most importantly](https://www.youtube.com/watch?v=b6kgS_AwuH0)
   - [penalties](http://www.commitstrip.com/en/page/42/)
