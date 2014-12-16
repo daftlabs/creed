@@ -124,6 +124,7 @@ in no particular order:
   - work on high value, low cost features first.
 
 - product
+  - [UX Checklist](http://uxchecklist.github.io/)
   - functionality is more important than design. build out your features before adding chrome. UX people first, programmers second, designers third.
   - know where you're going, but build your MVP first. (don't build an oil tanker when you need a tugboat)
   - MVP should be the smallest possible (not completely useless) piece of the great whole
