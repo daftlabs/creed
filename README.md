@@ -4,6 +4,7 @@ by: Daft Labs
 
 in no particular order:
 
+- learning? [great advice] (https://np.reddit.com/r/learnprogramming/comments/2qznse/i_need_serious_help_learn_to_program_was_my_new/cnb1luk)
 - math not feelings
   - [Ad spend calculator](http://ad-spend-calculator.qwilr.com/)
 - names matter
