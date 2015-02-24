@@ -29,7 +29,7 @@ in no particular order:
 - less cogs in the machine with the same level of functionality should be the goal
   - this conflicts with the idea of "using the best tool for the job", both are important you'll just have to figure it out on a case by case basis.
   - keep complexity as low as possible
-  - celebrate deletions, not addtions
+  - celebrate deletions, not additions
   - http://blog.newrelic.com/2013/05/02/red-code-green-code/
 
 - programming
@@ -132,7 +132,7 @@ in no particular order:
   - functionality is more important than design. build out your features before adding chrome. UX people first, programmers second, designers third.
   - know where you're going, but build your MVP first. (don't build an oil tanker when you need a tugboat)
   - MVP should be the smallest possible (not completely useless) piece of the great whole
-    - bulid for what you need now, not what you expect you might need in the future
+    - build for what you need now, not what you expect you might need in the future
   - pages should have only one call to action
   - be vocal about things you think are broken or inefficient
   - Be consistent.
