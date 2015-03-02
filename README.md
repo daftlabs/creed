@@ -21,6 +21,7 @@ in no particular order:
       - not sound like other words (ex: daft gets confused with deft regularly)
       - the goal is to not have to explain or spell the name every time you tell it to someone.
       - names aren't as important as the brands you build them to be.
+      - [generators](http://www.producthunt.com/jackdweck/collections/domain-discovery)
   - programming
     - don't abbreviate
     - when the meaning of an element (variable/method/class) changes, change the name (but srsly, put serious thought into the names)
