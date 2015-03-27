@@ -157,5 +157,9 @@ in no particular order:
 - [pivotal and git integration](http://pivotallabs.com/level-up-your-development-workflow-with-github-pivotal-tracker/)
 - [you can't make everyone happy](http://xkcd.com/1172/)
 
+- Repetitive stress injuries suck, map your keybindings to minimize movement and claw-hands.
+  - [map your keys](https://pqrs.org/osx/karabiner/)
+  - [capslock is special](https://pqrs.org/osx/karabiner/seil.html.en)
+
 - [and most importantly](https://www.youtube.com/watch?v=b6kgS_AwuH0)
   - [penalties](http://www.commitstrip.com/en/page/42/)
