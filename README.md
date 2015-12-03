@@ -45,6 +45,7 @@ in no particular order:
     - don't comment out code. this is why we have version control.
     - your code should be clean enough to read without comments.
       - comments are okay in rare occasions like heavy math, but ultimately are out of date as soon as you write them.
+    - if you're unsure about syntax, test it! Use a [REPL](https://repl.it)
   - don't get defensive when talking about the product. (ex: don't shy away from things you know are hard)
   - have tests
     - run your tests
