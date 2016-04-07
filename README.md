@@ -39,7 +39,7 @@ in no particular order:
     - php: http://pear.php.net/manual/en/standards.php
     - Be consistent.
     - line length should be less than 100 characters (github's panel width)
-    - clarity of code and readability are more imprtant than basically everything else
+    - clarity of code and readability are more important than basically everything else
     - frameworks have conventions
       - don't roll your own
     - don't comment out code. this is why we have version control.
@@ -62,6 +62,7 @@ in no particular order:
   - don't commit dependency code (i.e. jquery, bootstrap)
     - use composer or npm or gems or submodules or anything
   - don't commit "built" files like compiled sass, etc.
+  - commit messages should be present tense, like "fixing the bug," not "fixed this and that"
   - don't roll your own framework
     - bootstrap for markup and chrome
     - jquery for javascript dom management
